@@ -1,11 +1,11 @@
 
-local french = Instance.new("ScreenGui")
-french.Name = "FRENCH"
-french.Parent = game.CoreGui
+local Keta = Instance.new("ScreenGui")
+Keta.Name = "Keta"
+Keta.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
-design.Parent = french
+design.Parent = Keta
 
 local base = Instance.new("Frame")
 base.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -113,6 +113,7 @@ local script_2 = Instance.new("ScrollingFrame")
 script_2.HorizontalScrollBarInset = Enum.ScrollBarInset.ScrollBar
 script_2.ScrollBarImageTransparency = 1
 script_2.ScrollBarThickness = 10
+script_2.TopImage = "rbxassetid://4042159912"
 script_2.Active = true
 script_2.BackgroundColor3 = Color3.new(1, 1, 1)
 script_2.BackgroundTransparency = 1
@@ -326,16 +327,6 @@ animation_6.Parent = chest
 
 local folder = Instance.new("Folder")
 folder.Parent = script_2
-
-local image_label = Instance.new("ImageLabel")
-image_label.Image = "rbxassetid://4042159912"
-image_label.ImageTransparency = 0.699999988079071
-image_label.ScaleType = Enum.ScaleType.Slice
-image_label.BackgroundColor3 = Color3.new(1, 1, 1)
-image_label.BackgroundTransparency = 1
-image_label.Position = UDim2.new(0, 0, 0.0170804448, 0)
-image_label.Size = UDim2.new(0, 203, 0, 298)
-image_label.Parent = script_2
 
 local fountain = Instance.new("Frame")
 fountain.BackgroundColor3 = Color3.new(0.337255, 0.337255, 0.337255)
@@ -617,10 +608,6 @@ local saut = Instance.new("LocalScript")
 saut.Name = "SAUT"
 saut.Parent = base
 
-local detruire = Instance.new("LocalScript")
-detruire.Name = "DETRUIRE"
-detruire.Parent = base
-
 local compteur = Instance.new("LocalScript")
 compteur.Name = "COMPTEUR"
 compteur.Parent = base
@@ -640,7 +627,8 @@ box.Parent = acceuille_2
 
 local twitchbox = Instance.new("TextBox")
 twitchbox.Font = Enum.Font.SourceSansBold
-twitchbox.Text = "@FrenchCanCanOff"
+twitchbox.Text = "@KetaCanCanOff
+"
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
 twitchbox.TextSize = 12
 twitchbox.TextWrapped = true
@@ -656,7 +644,7 @@ uicorner_4.Parent = twitchbox
 
 local fr = Instance.new("TextBox")
 fr.Font = Enum.Font.SourceSansBold
-fr.Text = "French CanCan"
+fr.Text = "Keta CanCan"
 fr.TextColor3 = Color3.new(1, 1, 1)
 fr.TextSize = 12
 fr.TextWrapped = true
@@ -954,20 +942,20 @@ contour_version.Parent = acceuille_2
 local uicorner_10 = Instance.new("UICorner")
 uicorner_10.Parent = contour_version
 
-local french_can_can = Instance.new("TextBox")
-french_can_can.Font = Enum.Font.SourceSansBold
-french_can_can.Text = "FRENCH CANCAN"
-french_can_can.TextColor3 = Color3.new(1, 1, 1)
-french_can_can.BackgroundColor3 = Color3.new(0, 0, 0)
-french_can_can.BackgroundTransparency = 0.6000000238418579
-french_can_can.BorderSizePixel = 0
-french_can_can.Position = UDim2.new(0.348767757, 0, 0.231039196, 0)
-french_can_can.Size = UDim2.new(0, 62, 0, 13)
-french_can_can.Name = "French CanCan"
-french_can_can.Parent = acceuille_2
+local Keta_can_can = Instance.new("TextBox")
+Keta_can_can.Font = Enum.Font.SourceSansBold
+Keta_can_can.Text = "Keta CANCAN"
+Keta_can_can.TextColor3 = Color3.new(1, 1, 1)
+Keta_can_can.BackgroundColor3 = Color3.new(0, 0, 0)
+Keta_can_can.BackgroundTransparency = 0.6000000238418579
+Keta_can_can.BorderSizePixel = 0
+Keta_can_can.Position = UDim2.new(0.348767757, 0, 0.231039196, 0)
+Keta_can_can.Size = UDim2.new(0, 62, 0, 13)
+Keta_can_can.Name = "Keta CanCan"
+Keta_can_can.Parent = acceuille_2
 
 local uicorner_11 = Instance.new("UICorner")
-uicorner_11.Parent = french_can_can
+uicorner_11.Parent = Keta_can_can
 
 local frame_2 = Instance.new("Frame")
 frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -1031,18 +1019,18 @@ text_label_8.Parent = design
 local local_script_6 = Instance.new("LocalScript")
 local_script_6.Parent = text_label_8
 
-local image_label_2 = Instance.new("ImageLabel")
-image_label_2.Image = "rbxassetid://6019584093"
-image_label_2.ScaleType = Enum.ScaleType.Crop
-image_label_2.SliceScale = 15
-image_label_2.BackgroundColor3 = Color3.new(0, 0, 0)
-image_label_2.Position = UDim2.new(0.366726279, 0, 0.176505268, 0)
-image_label_2.Size = UDim2.new(0, 278, 0, 426)
-image_label_2.Parent = design
+local image_label = Instance.new("ImageLabel")
+image_label.Image = "rbxassetid://6019584093"
+image_label.ScaleType = Enum.ScaleType.Crop
+image_label.SliceScale = 15
+image_label.BackgroundColor3 = Color3.new(0, 0, 0)
+image_label.Position = UDim2.new(0.366726279, 0, 0.176505268, 0)
+image_label.Size = UDim2.new(0, 278, 0, 426)
+image_label.Parent = design
 
 local uicorner_15 = Instance.new("UICorner")
 uicorner_15.CornerRadius = UDim.new(0, 9)
-uicorner_15.Parent = image_label_2
+uicorner_15.Parent = image_label
 
 local text_label_9 = Instance.new("TextLabel")
 text_label_9.Font = Enum.Font.Creepster
@@ -1053,7 +1041,7 @@ text_label_9.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_9.BackgroundTransparency = 1
 text_label_9.Position = UDim2.new(0.133583695, 0, 0.0300517529, 0)
 text_label_9.Size = UDim2.new(0, 200, 0, 50)
-text_label_9.Parent = image_label_2
+text_label_9.Parent = image_label
 
 local text_label_10 = Instance.new("TextLabel")
 text_label_10.Font = Enum.Font.Creepster
@@ -1064,23 +1052,24 @@ text_label_10.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_10.BackgroundTransparency = 1
 text_label_10.Position = UDim2.new(-0.0210926868, 0, 0.210802928, 0)
 text_label_10.Size = UDim2.new(0, 273, 0, 50)
-text_label_10.Parent = image_label_2
+text_label_10.Parent = image_label
 
 local frame_4 = Instance.new("Frame")
 frame_4.BackgroundColor3 = Color3.new(1, 1, 1)
 frame_4.Position = UDim2.new(0.00359712238, 0, 0.154301241, 0)
 frame_4.Size = UDim2.new(0, 277, 0, 1)
-frame_4.Parent = image_label_2
+frame_4.Parent = image_label
 
 local frame_5 = Instance.new("Frame")
 frame_5.BackgroundColor3 = Color3.new(1, 1, 1)
 frame_5.Position = UDim2.new(0.00359712238, 0, 0.407822371, 0)
 frame_5.Size = UDim2.new(0, 277, 0, 1)
-frame_5.Parent = image_label_2
+frame_5.Parent = image_label
 
 local text_label_11 = Instance.new("TextLabel")
 text_label_11.Font = Enum.Font.Creepster
-text_label_11.Text = "if the auto farm doesn't work quit the game and refresh the page and restart your game."
+text_label_11.Text = "if the auto farm doesn't work quit the game and refresh the page and restart your game.
+"
 text_label_11.TextColor3 = Color3.new(0.333333, 1, 0.498039)
 text_label_11.TextScaled = true
 text_label_11.TextSize = 35
@@ -1089,7 +1078,7 @@ text_label_11.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_11.BackgroundTransparency = 1
 text_label_11.Position = UDim2.new(0.00408716872, 0, 0.454934388, 0)
 text_label_11.Size = UDim2.new(0, 273, 0, 50)
-text_label_11.Parent = image_label_2
+text_label_11.Parent = image_label
 
 local text_label_12 = Instance.new("TextLabel")
 text_label_12.Font = Enum.Font.Creepster
@@ -1100,16 +1089,16 @@ text_label_12.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_12.BackgroundTransparency = 1
 text_label_12.Position = UDim2.new(0.00408716779, 0, 0.898596406, 0)
 text_label_12.Size = UDim2.new(0, 273, 0, 50)
-text_label_12.Parent = image_label_2
+text_label_12.Parent = image_label
 
 local frame_6 = Instance.new("Frame")
 frame_6.BackgroundColor3 = Color3.new(1, 1, 1)
 frame_6.Position = UDim2.new(0.00359712238, 0, 0.565099359, 0)
 frame_6.Size = UDim2.new(0, 277, 0, 1)
-frame_6.Parent = image_label_2
+frame_6.Parent = image_label
 
 local local_script_7 = Instance.new("LocalScript")
-local_script_7.Parent = image_label_2
+local_script_7.Parent = image_label
 
 local text_label_13 = Instance.new("TextLabel")
 text_label_13.Font = Enum.Font.Creepster
@@ -1122,7 +1111,7 @@ text_label_13.BackgroundColor3 = Color3.new(1, 1, 1)
 text_label_13.BackgroundTransparency = 1
 text_label_13.Position = UDim2.new(0.00408716872, 0, 0.612211347, 0)
 text_label_13.Size = UDim2.new(0, 273, 0, 50)
-text_label_13.Parent = image_label_2
+text_label_13.Parent = image_label
 
 --//Modules
 
@@ -2752,9 +2741,9 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
 	
-			local french = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
+			local Keta = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
 	
-			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = french
+			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = Keta
 			wait()
 			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.Convert.MouseButton1Click)
 			wait()
@@ -2905,7 +2894,8 @@ task.spawn(function()
 			game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-614, 99, -777)
 			wait(1)
 	
-			while true do wait(3)
+			repeat 
+				wait(4)
 	
 				for i,v in pairs(game.Workspace.AppleBobbing:GetDescendants()) do 
 					if v.Name == "Attachment" then 
@@ -2917,7 +2907,7 @@ task.spawn(function()
 				for _,v in next, game.Players.LocalPlayer.Character:FindFirstChild("Humanoid").Animator:GetPlayingAnimationTracks() do
 					v:AdjustSpeed(300)
 				end
-			end
+			until false
 	
 	
 	
@@ -3088,25 +3078,6 @@ task.spawn(function()
 	game:GetService("ReplicatedStorage").FakeClickDetector:Destroy()
 	wait(1)
 	game:GetService("ReplicatedStorage").FakeClickDetectorEvents:Destroy()
-end)
-
--- DETRUIRE
-task.spawn(function()
-	local script = detruire
-
-	local oldreq = require
-	local function require(target)
-		if modules[target] then
-			return modules[target]()
-		end
-		return oldreq(target)
-	end
-
-	while true do wait()
-		game:GetService("ReplicatedStorage").ErrorLogNetworkFolder.ReportError:Destroy()
-	
-		game:GetService("ReplicatedStorage").LocalPromptNetwork.PromptShown:Destroy()
-	end
 end)
 
 -- COMPTEUR
