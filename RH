@@ -1,11 +1,11 @@
 
-local Keta = Instance.new("ScreenGui")
-Keta.Name = "Keta"
-Keta.Parent = game.CoreGui
+local french = Instance.new("ScreenGui")
+french.Name = "FRENCH"
+french.Parent = game.CoreGui
 
 local design = Instance.new("Folder")
 design.Name = "DESIGN"
-design.Parent = Keta
+design.Parent = french
 
 local base = Instance.new("Frame")
 base.BackgroundColor3 = Color3.new(0, 0, 0)
@@ -49,7 +49,7 @@ animation2.Name = "Animation 2"
 animation2.Parent = acceuille
 
 local object = Instance.new("ImageLabel")
-object.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object.BackgroundColor3 = Color3.new(1, 1, 1)
 object.BackgroundTransparency = 1
 object.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -82,7 +82,7 @@ animation2_2.Name = "Animation 2"
 animation2_2.Parent = script
 
 local object_2 = Instance.new("ImageLabel")
-object_2.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_2.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_2.BackgroundColor3 = Color3.new(1, 1, 1)
 object_2.BackgroundTransparency = 1
 object_2.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -179,7 +179,7 @@ animation2_3.Name = "Animation 2"
 animation2_3.Parent = fly
 
 local object_3 = Instance.new("ImageLabel")
-object_3.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_3.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_3.BackgroundColor3 = Color3.new(1, 1, 1)
 object_3.BackgroundTransparency = 1
 object_3.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -246,7 +246,7 @@ animation2_4.Name = "Animation 2"
 animation2_4.Parent = fly_2
 
 local object_4 = Instance.new("ImageLabel")
-object_4.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_4.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_4.BackgroundColor3 = Color3.new(1, 1, 1)
 object_4.BackgroundTransparency = 1
 object_4.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -313,7 +313,7 @@ animation2_5.Name = "Animation 2"
 animation2_5.Parent = fly_3
 
 local object_5 = Instance.new("ImageLabel")
-object_5.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_5.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_5.BackgroundColor3 = Color3.new(1, 1, 1)
 object_5.BackgroundTransparency = 1
 object_5.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -383,7 +383,7 @@ animation2_6.Name = "Animation 2"
 animation2_6.Parent = fly_4
 
 local object_6 = Instance.new("ImageLabel")
-object_6.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_6.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_6.BackgroundColor3 = Color3.new(1, 1, 1)
 object_6.BackgroundTransparency = 1
 object_6.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -450,7 +450,7 @@ animation2_7.Name = "Animation 2"
 animation2_7.Parent = fly_5
 
 local object_7 = Instance.new("ImageLabel")
-object_7.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_7.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_7.BackgroundColor3 = Color3.new(1, 1, 1)
 object_7.BackgroundTransparency = 1
 object_7.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -517,7 +517,7 @@ animation2_8.Name = "Animation 2"
 animation2_8.Parent = fly_6
 
 local object_8 = Instance.new("ImageLabel")
-object_8.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_8.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_8.BackgroundColor3 = Color3.new(1, 1, 1)
 object_8.BackgroundTransparency = 1
 object_8.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -584,7 +584,7 @@ animation2_9.Name = "Animation 2"
 animation2_9.Parent = fly_7
 
 local object_9 = Instance.new("ImageLabel")
-object_9.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+object_9.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 object_9.BackgroundColor3 = Color3.new(1, 1, 1)
 object_9.BackgroundTransparency = 1
 object_9.Position = UDim2.new(0.5, -12, 0.5, -12)
@@ -627,7 +627,7 @@ box.Parent = acceuille_2
 
 local twitchbox = Instance.new("TextBox")
 twitchbox.Font = Enum.Font.SourceSansBold
-twitchbox.Text = "@KetaCanCanOff
+twitchbox.Text = "@FrenchCanCanOff
 "
 twitchbox.TextColor3 = Color3.new(1, 1, 1)
 twitchbox.TextSize = 12
@@ -644,7 +644,7 @@ uicorner_4.Parent = twitchbox
 
 local fr = Instance.new("TextBox")
 fr.Font = Enum.Font.SourceSansBold
-fr.Text = "Keta CanCan"
+fr.Text = "French CanCan"
 fr.TextColor3 = Color3.new(1, 1, 1)
 fr.TextSize = 12
 fr.TextWrapped = true
@@ -716,7 +716,7 @@ image.Name = "Image"
 image.Parent = acceuille_2
 
 local fondateur = Instance.new("ImageLabel")
-fondateur.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+fondateur.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 fondateur.BackgroundColor3 = Color3.new(1, 1, 1)
 fondateur.BackgroundTransparency = 1
 fondateur.Position = UDim2.new(0.397080302, 0, 0.0760589167, 0)
@@ -942,20 +942,20 @@ contour_version.Parent = acceuille_2
 local uicorner_10 = Instance.new("UICorner")
 uicorner_10.Parent = contour_version
 
-local Keta_can_can = Instance.new("TextBox")
-Keta_can_can.Font = Enum.Font.SourceSansBold
-Keta_can_can.Text = "Keta CANCAN"
-Keta_can_can.TextColor3 = Color3.new(1, 1, 1)
-Keta_can_can.BackgroundColor3 = Color3.new(0, 0, 0)
-Keta_can_can.BackgroundTransparency = 0.6000000238418579
-Keta_can_can.BorderSizePixel = 0
-Keta_can_can.Position = UDim2.new(0.348767757, 0, 0.231039196, 0)
-Keta_can_can.Size = UDim2.new(0, 62, 0, 13)
-Keta_can_can.Name = "Keta CanCan"
-Keta_can_can.Parent = acceuille_2
+local french_can_can = Instance.new("TextBox")
+french_can_can.Font = Enum.Font.SourceSansBold
+french_can_can.Text = "FRENCH CANCAN"
+french_can_can.TextColor3 = Color3.new(1, 1, 1)
+french_can_can.BackgroundColor3 = Color3.new(0, 0, 0)
+french_can_can.BackgroundTransparency = 0.6000000238418579
+french_can_can.BorderSizePixel = 0
+french_can_can.Position = UDim2.new(0.348767757, 0, 0.231039196, 0)
+french_can_can.Size = UDim2.new(0, 62, 0, 13)
+french_can_can.Name = "French CanCan"
+french_can_can.Parent = acceuille_2
 
 local uicorner_11 = Instance.new("UICorner")
-uicorner_11.Parent = Keta_can_can
+uicorner_11.Parent = french_can_can
 
 local frame_2 = Instance.new("Frame")
 frame_2.BackgroundColor3 = Color3.new(1, 1, 1)
@@ -978,7 +978,7 @@ local uicorner_13 = Instance.new("UICorner")
 uicorner_13.Parent = frame_3
 
 local ouverture = Instance.new("ImageButton")
-ouverture.Image = "https://cdn.discordapp.com/attachments/1003042632504721480/1030951427738194040/hugss.png"
+ouverture.Image = "https://www.roblox.com/headshot-thumbnail/image?userId=3299324273&width=420&height=420&format=png"
 ouverture.BackgroundColor3 = Color3.new(1, 1, 1)
 ouverture.BackgroundTransparency = 1
 ouverture.Position = UDim2.new(0.478079915, 0, 0.0251587257, 0)
@@ -2741,9 +2741,9 @@ task.spawn(function()
 			script.Parent.Parent.Val:TweenSize(UDim2.new(0.8,0,0.8,0),'Out','Linear',0.1)
 			script.Parent.Enabled.Value = true
 	
-			local Keta = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
+			local french = game:GetService("Players").LocalPlayer.PlayerGui.CandyCounter.CandyCurrency.CandyAmount.Text
 	
-			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = Keta
+			game:GetService("Players").LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.CandyAmount.Text = french
 			wait()
 			firesignal(game.Players.LocalPlayer.PlayerGui.CandyConversionScreen.MainScreen.Convert.MouseButton1Click)
 			wait()
